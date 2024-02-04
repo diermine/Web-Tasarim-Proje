@@ -1,0 +1,310 @@
+body{
+	background-color: #212630;
+	font-family: Arial;
+}
+
+/*ÜST SATIR BAŞLANGIÇ*/
+.hd{
+	background-color: #171a21;
+	width: 100%;
+	height: 80px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#logo{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+#srch{
+	margin-left: 25%;
+	margin-top:25px;
+	background-color:gray;
+	float: left;
+}
+input{
+	height: 25px;
+}
+::placeholder { 
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+}
+
+#login{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 550px;
+	margin-top: 10px;
+}
+#cart{
+	width: 60px;
+	height: 60px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+
+
+/*ÜST SATIR BİTİŞ*/
+
+/*ÜST KATAGORİ BAŞLANGIÇ*/
+
+.katagori{
+	background-color: #171a21;
+	margin-top: 5px;
+	width: 1890px;
+	height: 60px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+#anasayfa{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+
+	text-decoration: none;
+	color: whitesmoke;
+}
+#anasayfa:hover{
+		color: green;
+	background-color: whitesmoke;
+	border-bottom-left-radius: 20px;
+}
+
+#tümü{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;	
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#tümü:hover{
+	color: green;
+	background-color: whitesmoke;
+}
+
+
+#yeni{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#yeni:hover{
+	color: green;
+	background-color: whitesmoke;
+}
+
+
+#iletisim{
+	text-align: center;
+	width: 475px;
+	height: 100%;
+	border-left:1px solid whitesmoke;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#iletisim:hover{
+	color: green;
+	background-color: whitesmoke;
+	border-bottom-right-radius: 20px;
+}
+
+/*ÜST KATAGORİ BİTİŞ*/
+
+/*İÇERİK BAŞLANGIÇ*/
+#satıs-arka{
+
+	margin-top: 120px;
+	margin-left: 110px;
+	background-color: #212630;
+	width: 1700px;
+	height:700px;
+}
+
+#oyun-resim{
+	margin-left: 10px;
+	margin-top: 50px;
+	width: 220px;
+	height: 250px;
+	float: left;
+	border: 1px solid whitesmoke;
+}
+
+#oyun-resim2{
+	margin-left: 10px;
+	margin-top: -180px;
+	width: 220px;
+	height: 250px;
+	float: left;
+	border: 1px solid whitesmoke;
+}
+
+#oyun-liste{
+	border-radius: 10px;
+	margin-top: 70px;
+	margin-left: 60px;
+	width: 800px;
+	height: 150px;
+	background-color: #171a21;
+	float: left;
+	padding-left: 10px;
+}
+#oyun-liste2{
+margin-top: -150px;
+	border-radius: 10px;
+	margin-left: 60px;
+	width: 800px;
+	height: 150px;
+	background-color: #171a21;
+	float: left;
+	padding-left: 10px;
+}
+
+#fiyat{
+	margin-top: -60px;
+	font-size: 30px;
+	color: whitesmoke;
+	margin-left: 650px;
+}
+#adet{
+		margin-top: 55px;
+	font-size: 15px;
+	color: whitesmoke;
+	margin-left: 670px;
+}
+
+#rc-logo{
+	margin-top: -10px;
+	width: 100px;
+	height: 70px;
+	float: left;
+}
+#rc-text{
+	float: left;
+	margin-left: 30px;
+	color: greenyellow;
+	font-size: 20px;
+}
+#satis-dikkat{
+	border-radius: 10px;
+	margin-left: 65px;
+	margin-top: 20px;
+	background-color: #171a21;
+	width: 800px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 18px;
+
+}
+div>p{color: green;
+margin-top: 10px}
+
+#satın-al{
+	margin-top: -150px;
+	margin-left: 50px;
+	width: 450px;
+	height: 500px;
+	background-color: #171a21;
+	float: left;
+}
+div[id="satın-al"]>p{
+	color: green;
+	float: left;
+	margin-left: 15px;
+	padding-top: 30px;
+}
+
+div[id="satın-al"]>hr{
+	width: 360px;
+}
+#ücret{
+	float: right;
+	margin-top: 5px;
+	margin-right: 20px;
+	font-size: 25px;
+	color: whitesmoke;
+}
+
+#al-buton{
+	border-radius: 10px;
+	padding-top: 10px;
+	text-align: center;
+	width: 130px;
+	height: 30px;
+	background-color: green;
+	color: whitesmoke;
+	margin-left: 20px;
+	margin-top: 70px;
+	float: left;
+	text-decoration: none;
+}
+#al-buton:hover{
+	box-shadow:2px 2px 10px green;
+	background-color: whitesmoke;
+	color: green;
+}
+
+#calidad{
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 40px;
+	height: 40px;
+}
+
+/*İÇERİK BİTİŞ*/
+
+
+/*FOOTER BAŞLANGIÇ*/
+.footer{
+	width:100%;
+	height: 60px;
+	background-color: #171a21;
+	float: left;
+	margin-top: 50px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#footer-logo{
+	width: 70px;
+	height: 60px;
+	float: left;
+}
+div[class="footer"]>p{
+	color: whitesmoke;
+	margin-left: 620px;
+}
+/*FOOTER BİTİŞ*/

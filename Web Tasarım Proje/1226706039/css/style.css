@@ -1,0 +1,421 @@
+body{
+	background-color: #212630;
+	font-family: Arial;
+}
+
+/*ÜST SATIR BAŞLANGIÇ*/
+.hd{
+
+	background-color: #171a21;
+	width: 100%;
+	height: 80px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#k-kapsa{
+	margin-top:250px;
+}
+#logo{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+#srch{
+	margin-left: 25%;
+	margin-top:25px;
+	background-color:gray;
+	float: left;
+}
+input{
+	height: 25px;
+}
+::placeholder { 
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+}
+
+#login{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 550px;
+	margin-top: 10px;
+}
+#cart{
+	width: 60px;
+	height: 60px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+
+
+/*ÜST SATIR BİTİŞ*/
+
+/*ÜST KATAGORİ BAŞLANGIÇ*/
+
+.katagori{
+
+	background-color: #171a21;
+	margin-top: 5px;
+	width: 1885px;
+	height: 60px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+#anasayfa{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+}
+#anasayfa:hover{
+		color: green;
+	background-color: whitesmoke;
+	border-bottom-left-radius: 20px;
+}
+
+#tümü{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;	
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#tümü:hover{
+	color: green;
+	background-color: whitesmoke;
+}
+
+
+#yeni{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#yeni:hover{
+	color: green;
+	background-color: whitesmoke;
+}
+
+
+#iletisim{
+	text-align: center;
+	width: 470px;
+	height: 100%;
+	border-left:1px solid whitesmoke;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#iletisim:hover{
+	color: green;
+	background-color: whitesmoke;
+	border-bottom-right-radius: 20px;
+}
+
+/*ÜST KATAGORİ BİTİŞ*/
+
+
+/*İÇERİK ALANI BAŞLANGIÇ*/
+#k-kapsa{
+	position: absolute;
+	width: 350px;
+	height: 700px;
+	background-color:#171a21;
+    box-shadow: 5px 5px 10px green;
+    border-radius: 20px;
+}
+
+
+#k-liste{
+	position: relative;
+	top: 0px;
+
+}
+#k-liste ul li{
+	font-size: 30px;
+	margin-top: 16px;
+
+}
+#k-liste ul a{
+	text-decoration: none;
+	color: seagreen;
+}
+#k-liste ul li a{
+	margin-left: -39px;
+	display: block;
+	width: 348px;
+	height: 60px;
+	background-color: #171a21;
+	line-height: 60px;
+	text-align: center;
+}
+#k-liste ul li a:hover{
+	background-color: #212630;
+	color: whitesmoke;
+	border-radius: 15px;
+}
+#k-liste ul{
+	list-style: none;
+}
+#k-liste ul li:first-child {
+font-size: 50px;
+color: whitesmoke;
+text-align: center;
+}
+/* ÇOK SATAN OYUNLAR BAŞLANGIÇ */
+div+h3 b{
+	margin-left: -30px;
+}
+h3{
+
+	margin-left:900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color: whitesmoke;
+}
+.cok-satan-arka{
+	width: 1000px;
+	height: 450px;
+	margin-left: 530px;
+}
+
+.ckstn-üst-bar{
+	width: 100%;
+	height: 25px;
+}
+.ckstn-üst-bar b{
+	color: green;
+	font-size: 20px;
+}
+.ckstn-üst-bar strong{
+	color: whitesmoke;
+	margin-left:170px;
+	font-size: 20px;
+}
+
+.coksatan-urun{
+	width: 300px;
+	height: 420px;
+	background-color: #171a21;
+	margin-right: 20px;
+	margin-left: 5px;
+	float: left;
+}
+.ckstn-isim{
+	width: 100%;
+	height: 35px;
+	color: whitesmoke;
+	text-align: center;
+}
+.ckstn-fiyat{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+.ckstn-fiyat b{
+	font-size: large;
+	color: green;
+}
+.ckstn-fiyat sub{
+	color: whitesmoke;
+}
+.ckstn-fiyat del{
+	color: green;
+	font-size: 18px;
+}
+
+/* ÇOK SATAN OYUNLAR BİTİŞ */
+
+/*İNDİRİMLİ OYUNLAR BAŞLANGIÇ*/
+
+.indirim-oyun-arka{
+	width: 1200px;
+	height: 850px;
+	margin-left: 450px;
+}
+.inidirm-urun{
+	width: 200px;
+	height: 405px;
+	background-color: #171a21;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.indirim-üst-bar{
+	width: 100%;
+	height: 20px;
+}
+.indirim-üst-bar b{
+	color: green;
+	font-size: 18px;
+}
+.indirim-üst-bar strong{
+	color: whitesmoke;
+	margin-left:85px;
+}
+.indirim-isim{
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	color: whitesmoke;
+}
+.indirim-fiyat{
+	width: 100%;
+	height: 35px;
+	text-align: center;
+}
+.indirim-fiyat b{
+	font-size: large;
+	color: green;
+}
+.indirim-fiyat sub{
+	color: whitesmoke;
+}
+.indirim-fiyat del{
+	color: green;
+	font-size: 18px;
+}
+
+/*İNDİRİMLİ OYUNLAR BİTİŞ*/
+
+/*OYUN RESİMLERİ BAŞLANGIÇ*/
+
+.coksatanlar{
+	width: 100%;
+	height: 300px;
+}
+.coksatanlar:hover{
+
+    box-shadow: 5px 5px 8px green;
+}
+
+.indirim-oyun{
+
+	width: 100%;
+	height: 280px;
+}
+.indirim-oyun:hover{
+
+    box-shadow: 5px 5px 8px green;
+}
+.inidirm-urun:hover{
+	box-shadow: 0px 5px 10px green;
+}
+.coksatan-urun:hover{
+		box-shadow: 0px 5px 10px green;
+}
+/*OYUN RESİMLERİ BİTİŞ*/
+
+
+/*SEPET İNCELE BAŞLANGIÇ*/
+
+.spet-ekle-coksatan:hover{
+	color: green;
+}
+.spet-ekle-coksatan{
+	text-decoration: none;
+	color: whitesmoke;
+	margin-left: 150px;
+
+}
+.spet-ekle-indirim{
+	text-decoration: none;
+	color: whitesmoke;
+	margin-left: 55px;
+
+}
+.spet-ekle-indirim:hover{
+	color: green;
+}
+
+
+
+.incele-coksatan{
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+}
+.incele-coksatan:hover{
+	color: green;
+}
+
+.incele-indirim{
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+}
+.incele-indirim:hover{
+	color: green;
+}
+
+
+/*SEPET İNCELE BİTİŞ*/
+
+/*İÇERİK ALANI BİTİŞ*/
+
+
+.yukarı-buton a button{
+	width: 110px;
+	height: 30px;
+	background-color: whitesmoke;
+	border:none;
+	border-radius: 8px;
+	margin-left: 1700px;
+	margin-top: 50px;
+	color: green;
+	font-size: 16px;
+}
+.yukarı-buton a button:hover{
+	box-shadow: 5px 5px 10px green;
+}
+/*FOOTER BAŞLANGIÇ*/
+.footer{
+	width:100%;
+	height: 60px;
+	background-color: #171a21;
+	float: left;
+	margin-top: 50px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#footer-logo{
+	width: 70px;
+	height: 60px;
+	float: left;
+}
+div[class="footer"]>p{
+	color: whitesmoke;
+	margin-left: 620px;
+}
+/*FOOTER BİTİŞ*/

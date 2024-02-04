@@ -1,0 +1,238 @@
+body{
+	background-color: #212630;
+	font-family: Arial;
+}
+
+/*ÜST SATIR BAŞLANGIÇ*/
+.hd{
+	background-color: #171a21;
+	width: 100%;
+	height: 80px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#logo{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+#srch{
+	margin-left: 25%;
+	margin-top:25px;
+	background-color:gray;
+	float: left;
+}
+
+input{
+	height: 25px;
+}
+::placeholder { 
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+}
+
+#login{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 550px;
+	margin-top: 10px;
+}
+#cart{
+	width: 60px;
+	height: 60px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+
+
+/*ÜST SATIR BİTİŞ*/
+
+/*ÜST KATAGORİ BAŞLANGIÇ*/
+
+.katagori{
+	background-color: #171a21;
+	margin-top: 5px;
+	width: 1905px;
+	height: 60px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+
+#anasayfa{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+
+	text-decoration: none;
+	color: whitesmoke;
+}
+#anasayfa:hover{
+		color: green;
+	background-color: whitesmoke;
+	border-bottom-left-radius: 20px;
+}
+
+#tümü{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;	
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#tümü:hover{
+	color: green;
+	background-color: whitesmoke;
+}
+
+
+#yeni{
+	text-align: center;
+	width: 470px;
+	border-right:1px solid whitesmoke;
+	height: 100%;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#yeni:hover{
+	color: green;
+	background-color: whitesmoke;
+}
+
+
+#iletisim{
+	text-align: center;
+	width: 490px;
+	height: 100%;
+	border-left:1px solid whitesmoke;
+	opacity: 50%;
+	line-height:60px;
+	font-size: 25px;
+	float: left;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#iletisim:hover{
+	color: green;
+	background-color: whitesmoke;
+	border-bottom-right-radius: 20px;
+}
+
+/*ÜST KATAGORİ BİTİŞ*/
+
+/*İÇERİK ALANI BAŞLANGICI*/
+
+#giris-arka{
+	border-radius: 30px;
+	margin-top: 150px;
+			margin-left: auto;
+			margin-right: auto;
+	width: 500px;
+	height: 400px;
+	background-color: #171a21;
+}
+#giris-arka:hover{
+	box-shadow: 0px 5px 5px green;
+}
+#posta{
+	border-radius: 10px;
+	color: whitesmoke;
+	margin-left: 80px;
+	margin-top:40px;
+	background-color:#212630;
+}
+
+#knickname{
+	margin-top: 15px;
+	margin-left: 80px;
+	border-radius: 10px;
+	color: whitesmoke;
+	background-color:#212630;
+}
+
+#kparola{
+	margin-top: 15px;
+	margin-left: 80px;
+	border-radius: 10px;
+	color: whitesmoke;
+	background-color:#212630;
+}
+#kparola-tekrar{
+	margin-top: 15px;
+	margin-left: 80px;
+	border-radius: 10px;
+	color: whitesmoke;
+	background-color:#212630;
+}
+
+label[for="k"]>strong{
+	color: whitesmoke;
+}
+label[for="e"]>strong{
+	color: whitesmoke;
+}
+input[type="radio"]{
+	margin-top:20px;
+	margin-left: 120px;
+}
+input[type="submit"]{
+	margin-left:300px;
+	border-radius: 10px;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	background-color:#212630 ;
+	font-size:large;
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+}
+
+input[type="submit"]:hover{
+	color: green;
+	background-color: whitesmoke;
+	box-shadow: 2px 2px 5px green;
+	}
+
+/*FOOTER BAŞLANGIÇ*/
+.footer{
+	width:100%;
+	height: 60px;
+	background-color: #171a21;
+	float: left;
+	margin-top: 165px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#footer-logo{
+	width: 70px;
+	height: 60px;
+	float: left;
+}
+div[class="footer"]>p{
+	color: whitesmoke;
+	margin-left: 620px;
+}
+/*FOOTER BİTİŞ*/
